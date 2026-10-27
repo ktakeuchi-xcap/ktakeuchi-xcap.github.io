@@ -203,6 +203,11 @@
   .lp-links { margin-top: 40px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
   .lp-btn { display: inline-block; padding: 10px 22px; border: 1px solid var(--gold); border-radius: 999px; color: var(--gold); text-decoration: none; font-size: 13px; letter-spacing: .16em; }
   .lp-note { margin-top: 32px; color: var(--ink-sub); font-size: 12.5px; letter-spacing: .12em; }
+  .lp-duo { display: flex; gap: 10px; }
+  .lp-duo-item { flex: 1; min-width: 0; }
+  .lp-duo-item img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; display: block; }
+  .lp-duo-cap { margin-top: 9px; font-size: 12.5px; letter-spacing: .1em; color: var(--ink); line-height: 1.6; }
+  .lp-duo-cap span { display: block; font-size: 11px; color: var(--ink-sub); letter-spacing: .14em; }
 </style>
 </head>
 <body>
@@ -414,7 +419,7 @@
     </div>
     <div class="lp-body">
       <p class="lp-lead">東京の中心で、400年以上の歴史を紡ぐ<br>日本庭園が広がる八芳園。<br>四季折々の美しい庭園を舞台に、<br>世界にたった一つのウエディングを。</p>
-      <figure class="lp-photo"><img src="https://happo-en.com/wp/wp-content/uploads/2026/10/%E5%85%AB%E8%8A%B3%E5%9C%92-%E5%A9%9A%E7%A4%BC-%E6%8C%99%E5%BC%8F%E5%A0%B402.jpg" alt="八芳園の挙式場" loading="lazy"><figcaption>挙式場 ― こころに残る、和洋多彩な挙式を</figcaption></figure>
+      <figure class="lp-photo"><div class="lp-duo"><div class="lp-duo-item"><img src="https://happo-en.com/wp/wp-content/uploads/2024/07/%E5%85%AB%E8%8A%B3%E5%9C%92-%E5%87%BA%E9%9B%B2%E6%AE%BF-KV-scaled.jpeg" alt="八芳園の挙式場・出雲殿" loading="lazy"><p class="lp-duo-cap">出雲殿<span>神前式</span></p></div><div class="lp-duo-item"><img src="https://happo-en.com/wp/wp-content/uploads/2024/07/%E5%85%AB%E8%8A%B3%E5%9C%92-The_GARDEN-KV-scaled.jpg" alt="八芳園の挙式場・Celebration Hall -The GARDEN-" loading="lazy"><p class="lp-duo-cap">THE GARDEN<span>教会式</span></p></div></div><figcaption>挙式場 ― こころに残る、和洋多彩な挙式を</figcaption></figure>
       <figure class="lp-photo"><img src="https://happo-en.com/wp/wp-content/uploads/2026/10/%E5%85%AB%E8%8A%B3%E5%9C%92-%E5%A9%9A%E7%A4%BC-%E6%8A%AB%E9%9C%B2%E5%AE%B4%E4%BC%9A%E5%A0%B402.jpg" alt="八芳園の披露宴会場" loading="lazy"><figcaption>披露宴会場 ― 庭園を望む、祝福のひととき</figcaption></figure>
       <figure class="lp-photo"><img src="https://happo-en.com/wp/wp-content/uploads/2024/07/%E5%85%AB%E8%8A%B3%E5%9C%92-%E5%A9%9A%E7%A4%BC-%E3%81%8A%E6%96%99%E7%90%86.jpeg" alt="八芳園の婚礼料理" loading="lazy"><figcaption>お料理 ― 世界にたったひとつの“おもてなし料理”を</figcaption></figure>
       <ul class="lp-points">
